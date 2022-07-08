@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/components/images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/components/style/style.css">
-    <title>Join</title>
+    <title>Discover</title>
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container-fluid pt-1">
           <a class="navbar-brand d-flex" href="/main.html">
-            <img src="/images/logo.png" alt="logo-soundwave" width="30" height="24" class="logo">
+            <img src="/components/images/logo.png" alt="logo-soundwave" width="30" height="24" class="logo">
             <p class="brand">Soundwave</p>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,42 +25,42 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="/discover.html">Discover</a>
-                <a class="nav-link" href="/join.html">Join</a>
+                <a class="nav-link" href="/components/pages/discover.html">Discover</a>
+                <a class="nav-link" href="/components/pages/join.html">Join</a>
               </div>
             </div>
         </div>
     </nav>
 
-    <div class="container d-flex">
-      <div class="col-6 d-flex">
-        <div class="row purple-big fixed-bottom mb-4"></div>
-        <h1 class="join">Join the&nbsp</h1>
-        <h1 class="fun">fun.</h1>
-        <div class="blue-4"></div>
-      </div>
-      <div class="col-6 card mt-5 m-3 p-5">
-        <form>
-          <div class="form-group mb-4">
-            <label class="">Nome</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter name">
-            
-          </div>
-          <div class="form-group mb-4">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          </div>
-          <div class="form-group mb-2">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <button type="submit" id="submit" class="btn btn-primary form-control">Join Now</button>
-        </form>
-      </div>
-    </div>
-    <div class="blue-big"></div>
-</body>
 
+    <div class="container d-flex">
+        <div>
+            <h1 class="header col-12 mt-4 p-5" align="left">Discover new music</h1>
+            <div class="d-flex mx-5" align="left">
+                <div class="square" align="center">
+                    <img  src="/components/images/microphone.svg" width="40px" alt="microphone">
+                    <p class="m-4">Charts</p>
+                </div>
+                <div  class="square" align="center">
+                    <img src="/components/images/albums.svg" width="40px" alt="albums">
+                    <p class="m-4">Albums</p>
+                </div>
+                <div class="square" align="center">
+                    <img src="/components/images/more.svg" width="40px" alt="more">
+                    <p class="m-4">More</p>
+                </div>
+            </div>
+            <p class="col-8 mx-5 mt-5" align="left">By joining you can benefit by listening <br> to the latest albums released</p>
+            <div class="blue-2"></div>
+        </div>
+        <div class="d-flex">
+            <div class="purple-2"></div>
+            <img class="covers" align="center" src="/components/images/covers.jpg" alt="covers">
+            <div class="blue-3"></div>
+            <div class="purple-3"></div>
+        </div>
+    </div>
+</body>
 <footer class="d-flex flex-wrap justify-content-around fixed-bottom mt-4">
     <div class="col-md-4 d-flex justify-content-around">
       <span class="mx-2 text">About Us</span>
