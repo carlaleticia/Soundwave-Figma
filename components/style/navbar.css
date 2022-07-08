@@ -1,0 +1,48 @@
+.navbar{
+    margin-top: 2rem;
+    color: var(--white);
+}
+
+.logo{
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+
+.brand{
+    color: var(--white);
+    font-size: var(--text-size);
+    margin-left: 1rem;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.nav-link{
+    color: var(--white);
+    font-size: var(--nav-size);
+    /* padding-left: 2rem; */
+    margin-right: 3rem;
+}
+
+footer{
+    margin-top: 5rem; 
+    background-color: var(--black);
+    line-height: 3rem;
+    color: var(--white);
+}
+
+div span .text-muted{
+    color: var(--white);
+}
+
+.text span, .text, .text:hover{
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--font);
+    font-size: var(--nav-size);
+}
+
+i{
+    color: var(--white);
+}

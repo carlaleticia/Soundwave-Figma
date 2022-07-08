@@ -1,0 +1,17 @@
+:root{
+    --background: #2F303A;
+    --black: #202027;
+    --blue: #1762A7;
+    --purple: #BC3A80;
+    --opacity: 10%;
+    --white: #ffffff;
+    --font: 'Poppins', sans-serif;
+    --title-size: 3rem;
+    --text-size: 1.2rem;
+    --nav-size: 0.9rem;
+}
+
+*{
+    max-width: 1600px;
+    max-height: 680px;
+}

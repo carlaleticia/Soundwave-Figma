@@ -1,0 +1,102 @@
+.girl{
+    width: 25rem;
+    margin-left: 4rem;
+    margin-top: 3.6rem;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+.purple{
+    background-color: var(--purple);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+.purple-2{
+    background-color: var(--purple);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    margin-left: -7rem;
+    margin-top: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.purple-3{
+    background-color: var(--purple);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 25rem;
+    margin-right: -2rem;
+    z-index: 1;
+}
+
+.purple-big{
+    background-color: var(--purple);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    margin-left: 6rem;
+}
+
+.blue{
+    background-color: var(--blue);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 30rem;
+}
+
+.blue-2{
+    background-color: var(--blue);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-left: -10rem;
+    margin-bottom: 5rem;
+}
+
+.blue-3{
+    background-color: var(--blue);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    margin-left: -7rem;
+    margin-top: -4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.blue-4{
+    background-color: var(--blue);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    margin-left: 10rem;
+    margin-top: -9rem;
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.blue-big{
+    background-color: var(--blue);
+    opacity: var(--opacity);
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin-left: 82rem;
+    margin-bottom: -5rem;
+}
