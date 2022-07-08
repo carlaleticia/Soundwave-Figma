@@ -71,7 +71,7 @@ body{
     border-color: var(--blue);
     font-size: var(--nav-size);
     line-height: 1.5rem;
-    color: var(--black);
+    color: var(--white);
 }
 
 .form-group label{
